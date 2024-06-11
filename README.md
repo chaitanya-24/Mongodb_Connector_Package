@@ -13,7 +13,7 @@ To use this class as a package on PyPI, you can follow these steps:
 
 2. **Import the Class**:
    ```python
-   from mongodb_connect import mongo_crud
+   from mongoDB-python-connector import mongo_crud
    ```
 
 3. **Create an Instance of the Class**:
