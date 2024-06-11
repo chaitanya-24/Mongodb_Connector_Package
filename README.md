@@ -8,12 +8,12 @@ To use this class as a package on PyPI, you can follow these steps:
 
 1. **Install the Package**:
    ```bash
-   pip install mongoDB-python-connector
+   pip install pymongo-connector
    ```
 
 2. **Import the Class**:
    ```python
-   from mongoDB-python-connector import mongo_crud
+   from pymongo_connector import mongo_crud
    ```
 
 3. **Create an Instance of the Class**:
