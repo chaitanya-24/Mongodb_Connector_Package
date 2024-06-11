@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-package_name = "mongoDB-python-connector"
+package_name = "mongoDB-connection-suite"
 
 list_of_files = [
    ".github/workflows/ci.yaml",
