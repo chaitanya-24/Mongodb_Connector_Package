@@ -18,7 +18,7 @@ To use this class as a package on PyPI, you can follow these steps:
 
 3. **Create an Instance of the Class**:
    ```python
-   mongo = mongo_operation(client_url='mongodb://localhost:27017/', database_name='mydatabase', collection_name='mycollection')
+   mongo = mongo_crud.mongo_operation(client_url='mongodb://localhost:27017/', database_name='mydatabase', collection_name='mycollection')
    ```
 
 4. **Use the Methods**:
