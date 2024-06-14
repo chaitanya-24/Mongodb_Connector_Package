@@ -16,7 +16,7 @@ class mongo_operation:
         self.collection_name=collection_name
        
     def create_mongo_client(self,collection=None):
-        client=MongoClient(self.client_url, ssl=True, ssl_cert_reqs='CERT_NONE')
+        client=MongoClient(self.client_url)
         return client
     
     def create_database(self,collection=None):
@@ -53,7 +53,7 @@ class mongo_operation:
         self.path=datafile
         
         if self.path.endswith('.csv'):
-            dataframe=pd.read.csv(self.path,encoding='utf-8')
+            dataframe=pd.read_csv(self.path,encoding='utf-8')
             
         elif self.path.endswith(".xlsx"):
             dataframe=pd.read_excel(self.path)
