@@ -24,7 +24,7 @@ class mongo_operation:
         self.collection_name=collection_name
        
     def create_mongo_client(self,collection=None):
-        client=MongoClient(self.client_url)
+        client=MongoClient(self.client_url, ssl=True, ssl_cert_reqs='CERT_NONE')
         return client
     
     def create_database(self,collection=None):
